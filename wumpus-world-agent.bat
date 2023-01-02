@@ -1,0 +1,1 @@
+java -cp wumpus-agents.jar;lib/jade.jar  jade.Boot -container -host localhost -agents wumpus-world:org.example.wumpus.WumpusWorldAgent(%*)
